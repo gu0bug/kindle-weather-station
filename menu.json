@@ -1,0 +1,14 @@
+{
+	"items": [
+		{
+			"name": "Start Weather Station",
+			"priority": 1,
+			"action": "sh ./weather.sh start"
+		},
+		{
+			"name": "Stop Weather Station",
+			"priority": 2,
+			"action": "sh ./weather.sh stop"
+		}
+	]
+}
