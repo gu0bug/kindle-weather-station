@@ -6,15 +6,24 @@ The dashboard includes a touchscreen-controlled status bar with buttons to switc
 
 ---
 
+## Screenshots
+
+| Portrait Mode (Default) | Landscape Mode |
+|---|---|
+| ![Portrait Mode](images/portrait.jpg) | ![Landscape Mode](images/landscape.jpg) |
+
+---
+
 ## Features
 
 - **Dual Layouts**: Supports **Portrait** (758x1024, default) and **Landscape** (1024x758, rotated 90 degrees clockwise to fit the portrait framebuffer).
 - **Dual Languages**: Dynamically toggles between **Chinese** and **English** (dates, weekdays, weather descriptions, and buttons).
 - **LCD Clock**: Renders a giant digital clock using custom chamfered 7-segment segment vectors (no external font files required).
+- **Heartbeat Colon**: The clock colon ":" blinks dynamically (shows for 7 seconds, disappears for 3 seconds of every 10-second cycle).
 - **Clean Grayscale Icons**: Renders minimalist vector weather icons on-the-fly.
 - **Fast Interactive Response**: Orientation and language switching takes less than a second using a local weather forecast cache.
-- **Low-Power Deep Sleep**: Automatically schedules system wakeup alarm via RTC alarm and suspends the device to RAM between update intervals.
 - **Auto-Exit**: Daemon terminates and restores the Kindle GUI immediately upon USB charging or connection to a PC.
+- **Author Signature**: Renders `" by Gu0 Qiang"` centered at the bottom of the status bar.
 
 ---
 
@@ -35,7 +44,8 @@ weather-station/
 ├── menu.json          # KUAL launcher menu
 ├── weather.sh         # Main automation loop & power daemon (shell script)
 ├── render.py          # Python Pillow layout rendering script
-└── monitor_touch.py   # Touchscreen input binary decoder daemon
+├── monitor_touch.py   # Touchscreen input binary decoder daemon
+└── images/            # Screenshots and project media
 ```
 
 ---
@@ -70,4 +80,4 @@ weather-station/
 
 ## License
 
-This project is open-source and free to use.
+This project is open-source and free to use. Customized by **Gu0 Qiang**.
