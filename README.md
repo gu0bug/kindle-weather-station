@@ -1,5 +1,13 @@
 # Kindle Typographic Weather Dashboard
 
+[![License](https://img.shields.io/github/license/gu0bug/kindle-weather-station)](LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gu0bug/kindle-weather-station?color=blue)](https://github.com/gu0bug/kindle-weather-station/releases)
+[![GitHub repo size](https://img.shields.io/github/repo-size/gu0bug/kindle-weather-station)](https://github.com/gu0bug/kindle-weather-station)
+![Platform](https://img.shields.io/badge/Platform-Kindle-orange)
+![KUAL](https://img.shields.io/badge/KUAL-Supported-brightgreen)
+[![GitHub stars](https://img.shields.io/github/stars/gu0bug/kindle-weather-station?style=social)](https://github.com/gu0bug/kindle-weather-station/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gu0bug/kindle-weather-station?style=social)](https://github.com/gu0bug/kindle-weather-station/network/members)
+
 This KUAL extension turns a jailbroken Amazon Kindle into a low-power, standalone time and weather station display. Utilizing a robust **Python Pillow (PIL)** script (`render.py`), it programmatically draws a high-contrast layout, complete with 7-segment clock digits, custom vector weather icons, and metadata in English and Chinese.
 
 The dashboard includes a touchscreen-controlled status bar with buttons to switch layout orientation, toggle between English and Chinese translation, and exit back to the Kindle reader GUI.
