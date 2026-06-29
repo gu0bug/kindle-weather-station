@@ -6,11 +6,18 @@
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# USER CONFIGURATION
+# USER CONFIGURATION (Defaults)
 # ------------------------------------------------------------------------------
 API_KEY="YOUR_OPENWEATHERMAP_API_KEY"
 CITY_NAME="Shanghai,CN"
 INTERVAL=600  # Wake up every 10 minutes (600 seconds)
+
+# Load local private configuration if it exists
+if [ -f "$EXT_DIR/user_config.sh" ]; then
+	. "$EXT_DIR/user_config.sh"
+elif [ -f "./user_config.sh" ]; then
+	. "./user_config.sh"
+fi
 
 # ------------------------------------------------------------------------------
 # PATHS AND PLACES

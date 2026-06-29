@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL archive
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Kindle Weather Station runtime files
+*.log
+*.cache
+*.pid
+*.state
+rendered.svg
+
+# User private configuration (DO NOT COMMIT)
+user_config.sh
