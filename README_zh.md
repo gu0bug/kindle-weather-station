@@ -1,5 +1,13 @@
 # Kindle 电子墨水屏天气时钟看板
 
+[![License](https://img.shields.io/github/license/gu0bug/kindle-weather-station)](LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gu0bug/kindle-weather-station?color=blue)](https://github.com/gu0bug/kindle-weather-station/releases)
+[![GitHub repo size](https://img.shields.io/github/repo-size/gu0bug/kindle-weather-station)](https://github.com/gu0bug/kindle-weather-station)
+![Platform](https://img.shields.io/badge/Platform-Kindle-orange)
+![KUAL](https://img.shields.io/badge/KUAL-Supported-brightgreen)
+[![GitHub stars](https://img.shields.io/github/stars/gu0bug/kindle-weather-station?style=social)](https://github.com/gu0bug/kindle-weather-station/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/gu0bug/kindle-weather-station?style=social)](https://github.com/gu0bug/kindle-weather-station/network/members)
+
 本项目将一部已越狱的 Amazon Kindle 变成一个低功耗、独立的桌面天气时钟看板。使用 Python Pillow (PIL) 图形库进行画面绘制，生成高对比度、适合电子墨水屏的画面，包含 LCD 3D 拟真 7 段数码管时钟、极简天气矢量图标以及详细的天气实况与预报。
 
 看板提供了底部状态栏触摸控制按钮，支持即时旋转屏幕方向、切换中英文显示以及退出看板回到 Kindle 原生系统。
