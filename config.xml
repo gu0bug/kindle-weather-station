@@ -2,7 +2,7 @@
 <extension>
 	<information>
 		<name>Weather Station</name>
-		<version>2.0</version>
+		<version>1.0.6</version>
 		<author>Antigravity</author>
 		<id>weather_station</id>
 	</information>
