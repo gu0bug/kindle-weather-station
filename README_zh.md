@@ -1,7 +1,7 @@
 # Kindle 电子墨水屏天气时钟看板
 
 [![License](https://img.shields.io/github/license/gu0bug/kindle-weather-station)](LICENSE)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/gu0bug/kindle-weather-station?color=blue)](https://github.com/gu0bug/kindle-weather-station/releases)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/gu0bug/kindle-weather-station?color=blue&label=release)](https://github.com/gu0bug/kindle-weather-station/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/gu0bug/kindle-weather-station)](https://github.com/gu0bug/kindle-weather-station)
 ![Platform](https://img.shields.io/badge/Platform-Kindle-orange)
 ![KUAL](https://img.shields.io/badge/KUAL-Supported-brightgreen)
